@@ -19,16 +19,28 @@ const Footer = () => {
         <div className="w-full md:w-1/5 mb-8 md:mb-0">
           <h3 className="text-white text-lg font-bold mb-4">Company</h3>
           <ul className="flex flex-col gap-2 text-gray-400">
-            <a className="hover:text-white" href="#Header">
+            <a
+              className="hover:text-white transition-colors duration-300 ease focus:text-white outline-none"
+              href="#Header"
+            >
               Home
             </a>
-            <a className="hover:text-white" href="#About">
+            <a
+              className="hover:text-white transition-colors duration-300 ease focus:text-white outline-none"
+              href="#About"
+            >
               About Us
             </a>
-            <a className="hover:text-white" href="#Contacts">
+            <a
+              className="hover:text-white transition-colors duration-300 ease focus:text-white outline-none"
+              href="#Contacts"
+            >
               Contact Us
             </a>
-            <a className="hover:text-white" href="#">
+            <a
+              className="hover:text-white transition-colors duration-300 ease focus:text-white outline-none"
+              href="#"
+            >
               Privacy
             </a>
           </ul>
@@ -42,11 +54,11 @@ const Footer = () => {
           </p>
           <div className="flex gap-2">
             <input
-              className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus: outline-none w-full md:w-auto"
+              className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 outline-none w-full md:w-auto hover:text-white transition-colors duration-300 ease focus:text-white"
               type="email"
               placeholder="Enter your email"
             />
-            <button className="py-2 px-4 rounded bg-blue-500 text-white cursor-pointer">
+            <button className="py-2 px-4 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-800 transition-colors duration-300 ease-in focus:bg-blue-800 outline-none">
               Subscribe
             </button>
           </div>

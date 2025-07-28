@@ -25,7 +25,7 @@ const Testimonials = () => {
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+            className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center hover:-translate-y-1 transition-transform duration-300 ease-in"
           >
             <img
               className="w-20 h-20 rounded-full mx-auto mb-4"

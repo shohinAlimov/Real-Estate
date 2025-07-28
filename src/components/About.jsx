@@ -51,7 +51,7 @@ const About = () => {
             suscipit alias quasi, sapiente iure totam voluptates est tenetur
             laudantium ipsam!
           </p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+          <button className="bg-blue-600 text-white px-8 py-2 rounded hover:bg-blue-800 transition-colors duration-300 cursor-pointer outline-none focus:bg-blue-800">
             Learn More
           </button>
         </div>

@@ -52,7 +52,7 @@ function Projects() {
       {/* Slider Buttons */}
       <div className="flex justify-end items-center mb-8">
         <button
-          className="p-3 bg-gray-200 rounded mr-2 cursor-pointer"
+          className="p-3 bg-gray-200 rounded mr-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in focus:bg-gray-300 outline-none"
           aria-label="Previous Project"
           onClick={prevProject}
         >
@@ -60,7 +60,7 @@ function Projects() {
         </button>
 
         <button
-          className="p-3 bg-gray-200 rounded mr-2 cursor-pointer"
+          className="p-3 bg-gray-200 rounded mr-2 cursor-pointer hover:bg-gray-300 transition-colors duration-300 ease-in focus:bg-gray-300 outline-none"
           aria-label="Next Project"
           onClick={nextProject}
         >
