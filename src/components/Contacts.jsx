@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import { toast } from "react-toastify";
 
+const WEB3FORM_ACCESS_KEY = "your_access_key_here";
+
 const Contacts = () => {
   const [result, setResult] = React.useState("");
 
@@ -10,7 +12,7 @@ const Contacts = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "11c0c9c8-c12d-4f7e-8d22-1863eb223dd8");
+    formData.append("access_key", { WEB3FORM_ACCESS_KEY });
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
